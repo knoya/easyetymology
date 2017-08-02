@@ -71,7 +71,7 @@ let fetch = require('node-fetch');
 var async = require('async');
 let etymologies = require('./index.json');
 let contractions = require('./contractions.json');
-var sg = require('sendgrid')('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');
+var sg = require('sendgrid')('API_KEY');
 
 const port = 4000;
 
